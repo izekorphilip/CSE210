@@ -36,6 +36,7 @@ class Program
                     Console.Write("> ");
                     string userInput = Console.ReadLine();
                     //step 3: get date value
+                    //to exceed requirement I used the DateTime object, so that my time can show the actual time it was run
                     DateTime currentDate = DateTime.Now;
                     string date = currentDate.ToShortDateString();
                     //step 4: save all values into the entry class instance
